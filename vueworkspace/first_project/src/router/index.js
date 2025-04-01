@@ -5,6 +5,8 @@ import DataBinding from '@/views/DataBinding.vue'
 import ListBinding from '@/views/ListBinding.vue'
 import ifBinding from '@/views/ifBinding.vue'
 import IfBinding from '@/views/ifBinding.vue'
+import OnEvent from '@/views/OnEvent.vue'
+import ComputedWatch from '@/views/ComputedWatch.vue'
 
 const routes = [
   {
@@ -34,6 +36,16 @@ const routes = [
     path : '/ifBinding',
     name : 'ifBind',
     component : IfBinding
+  },
+  {
+    path : '/onEvent',
+    name : 'onEvent',
+    component : OnEvent
+  },
+  {
+    path : '/computedWatch',
+    name : 'comWat',
+    component : ComputedWatch
   }
 ]
 

@@ -5,6 +5,8 @@
     <router-link to="/dataBinding">DataBind</router-link> |
     <router-link :to="{ name : 'listBind'}">ListBind</router-link> |
     <router-link :to="{ name : 'ifBind'}">ifBind</router-link> |
+    <router-link :to="{ name : 'onEvent'}">onEvent</router-link> |
+    <router-link :to="{ name : 'comWat'}">comWat</router-link> |
   </nav>
   <router-view/>
   <!--<hr>
